@@ -112,7 +112,9 @@ const Interview = ({ params }) => {
         </div>
       </div>
       <div className="flex justify-center items-end mt-10">
-        <Button>Start Interview</Button>
+        <Link href={`/dashboard/interview/${params.interviewId}/start`}>
+          <Button>Start Interview</Button>
+        </Link>
       </div>
     </div>
   );

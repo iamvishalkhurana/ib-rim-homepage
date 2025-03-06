@@ -74,13 +74,13 @@ const StartInterview = ({ params }) => {
             Next Question
           </Button>
         )}
-        {activeQuestionIndex === interviewQuestions.length - 1 && (
+        {/* {activeQuestionIndex === interviewQuestions.length - 1 && (
           <Link
             href={`/dashboard/interview/${interviewDetails.mockId}/feedback`}
           >
             <Button>End Interview</Button>
           </Link>
-        )}
+        )} */}
       </div>
     </div>
   );
